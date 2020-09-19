@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./dist/main-screen-image/polyfills-es2015.js"></script>
+    <script src="./dist/main-screen-image/vendor-es2015.js"></script>
+    <script src="./dist/main-screen-image/runtime-es2015.js"></script>
+    <script src="./dist/main-screen-image/styles-es2015.js"></script>
+    <script src="./dist/main-screen-image/main-es2015.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../package/swiper-bundle.min.css" />
+    <title>homepage</title>
+  </head>
+  <body>
+    <main class="slider-container">
+      <div class="image-container">
+        <img class="big-image" src="./assets/banner-1.jpg" alt="" />
+        <header>Make Smarter Decisions</header>
+        <div class="content">Hear from fest goers and</div>
+        <div class="content-second">See ratings before you book your next event</div>
+        <div class="read-write-discover">
+          <button class="add_review_button">Read Review</button>
+          <button class="discover-fest">Discover Fests</button>
+        </div>
+        <div class="pin left-arrow">
+          <img
+            class="leftButton icon-drop-right-align"
+            src="./assets/icon-drop-right.png"
+            alt=""
+          />
+        </div>
+
+        <div class="pin right-arrow">
+          <img
+            class="icon-drop-right-align"
+            src="./assets/icon-drop-right.png"
+            alt=""
+          />
+        </div>
+        <div class="places">
+          <ui-main-image></ui-main-image>
+        </div>
+      </div>
+      <ui-search-panel></ui-search-panel>
+      <ui-trustpilot-carousal></ui-trustpilot-carousal>
+      <ui-fest-category></ui-fest-category>
+      <ui-banner-list></ui-banner-list>
+      <div class="review-scroll-container">
+        <ui-review-card></ui-review-card>
+      </div>
+      <div class="review-scroll-container">
+        <ui-review-card></ui-review-card>
+      </div>
+      <div>
+        <p class="editors-choice-header">From the camp</p>
+        <p class="editors-choice-desc">Music festival blog featuring the best of festival footnotes around the World</p>
+      </div>
+      <ui-editors-pick></ui-editors-pick>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+.carousel-indicators {
+    bottom: -60px;
+}
+
+.checked {
+    color: yellow;
+}
+.saved {
+    color: yellow;
+}

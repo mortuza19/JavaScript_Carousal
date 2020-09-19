@@ -1,0 +1,42 @@
+[
+    {
+        "imageurl": "../../assets/Airbnb-icon/icon-1.webp",
+        "festcategory": "Summer Special",
+        "festurl": "https://www.worldwidefests.com/"
+    },
+    {
+        "imageurl": "../../assets/Airbnb-icon/icon-2.webp",
+        "festcategory": "Winter Chill",
+        "festurl": "https://www.worldwidefests.com/"
+    },
+    {
+        "imageurl": "../../assets/Airbnb-icon/icon-3.webp",
+        "festcategory": "Best of 2020",
+        "festurl": "https://www.worldwidefests.com/"
+    },
+    {
+        "imageurl": "../../assets/Airbnb-icon/icon-4.webp",
+        "festcategory": "Rock",
+        "festurl": "https://www.worldwidefests.com/"
+    },
+    {
+        "imageurl": "../../assets/Airbnb-icon/icon-5.webp",
+        "festcategory": "Editors Choice",
+        "festurl": "https://www.worldwidefests.com/"
+    },
+    {
+        "imageurl": "../../assets/Airbnb-icon/icon-6.jpg",
+        "festcategory": "New Year",
+        "festurl": "https://www.worldwidefests.com/"
+    },
+    {
+        "imageurl": "../../assets/Airbnb-icon/icon7.webp",
+        "festcategory": "Beach",
+        "festurl": "https://www.worldwidefests.com/"
+    },
+    {
+        "imageurl": "../../assets/Airbnb-icon/icon8.jpg",
+        "festcategory": "Outdoor",
+        "festurl": "https://www.worldwidefests.com/"
+    }
+]
